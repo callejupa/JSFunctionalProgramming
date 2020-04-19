@@ -19,7 +19,7 @@ function foo(suspect) {
 
 function foo2(suspect) {
   for (let key in suspect){
-    console.log(suspect(key))
+    console.log(suspect[key])
   }
 }
 
